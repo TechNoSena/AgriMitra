@@ -1,0 +1,81 @@
+name: Agrimitra
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Networking
+  http: ^1.2.1
+
+  # State management (Riverpod)
+  flutter_riverpod: ^2.6.1
+  flutter_blue_plus: ^1.31.18
+
+  # Local storage
+  shared_preferences: ^2.5.3
+
+
+  # Voice input/output
+  speech_to_text: ^7.2.0
+  flutter_tts: ^4.2.3
+
+  # Image capture/upload
+  image_picker: ^1.2.0
+
+  # Live updates via WebSocket/MQTT
+  web_socket_channel: ^3.0.3
+  # (Consider `mqtt_client` separately if needed; version not retrieved.)
+
+  # Internationalization
+  intl: ^0.20.2
+
+  # Fonts
+  google_fonts: ^6.3.0
+  cupertino_icons: ^1.0.8
+  percent_indicator: ^4.2.3 # For the 80% circular indicator
+  flutter_launcher_icons: ^0.14.4
+  google_generative_ai: ^0.4.0
+
+  url_launcher: ^6.2.5
+  torch_light: ^1.0.0
+
+
+
+  provider: ^6.1.2 # ViewModel ke liye
+
+
+dev_dependencies:
+
+
+  flutter_test:
+    sdk: flutter
+
+
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/sunnyday.jpeg
+    - assets/images/THUNDERSTORM.jpg
+    - assets/images/FOGGY.jpg
+    - assets/images/PARTLY CLOUDY.jpg
+    - assets/images/OVERCAST.jpg
+    - assets/images/LIGHT RAIN.jpg
+    - assets/images/pfp.png
+    - assets/images/app_logo1.png
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_logo1.png"
